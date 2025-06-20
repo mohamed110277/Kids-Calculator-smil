@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffd6e8, #ffe4f0);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.app-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff0f6;
+  padding: 25px 30px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(255, 182, 193, 0.5);
+  text-align: center;
+  width: 320px;
+}
+
+h1 {
+  font-size: 26px;
+  color: #d63384;
+  margin-bottom: 20px;
+}
+
+.language-selector {
+  margin-bottom: 10px;
+}
+
+.language-selector select {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.calculator input {
+  width: 100%;
+  font-size: 22px;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 2px solid #ffc0cb;
+  background-color: #fff;
+  color: #444;
+  text-align: right;
+}
+
+.number-pad .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.number-pad button {
+  width: 30%;
+  padding: 15px 0;
+  font-size: 22px;
+  border-radius: 12px;
+  border: none;
+  background-color: #ffb6c1;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.number-pad button:hover {
+  background-color: #ff69b4;
+}
+
+button.equal {
+  background-color: #f06292;
+}
+
+button.clear {
+  background-color: #d32f2f;
+}
+
+.kids-icons {
+  margin-top: 15px;
+  font-size: 30px;
+}
